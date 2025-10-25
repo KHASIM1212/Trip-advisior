@@ -1,0 +1,791 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 80px;
+    /* border: 1px solid; */
+        position: sticky;
+        top: 0;
+        background-color: #ffff;
+        z-index: 10;
+}
+header nav{
+    /* border: 1px solid red; */
+    width: 82%;
+    margin: auto;
+    height: inherit;
+    display: flex;
+    /* flex: 1; */
+    align-items: center;
+    justify-content: space-between;
+    color: #002b11;
+    font-family: "Trip Sans VF","Trip Sans",Arial,sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+
+
+}
+
+header nav span img{
+    width: 188px;
+    height: 100%;
+}
+header nav div ul{
+    /* border: 1px solid; */
+    list-style: none;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+header nav div ul li{
+    padding-right: 25px;
+}
+header nav button{
+    padding: 9.5px 16px;
+    border-radius: 1000px;
+    border: none;
+    font-size: 16px;
+    background-color: #ffff;
+    font-weight: inherit;
+    text-align: center;
+    /* margin-top: 10px; */
+}
+
+header nav button+button{
+    background-color: #002b11;
+    color: #f7f7f7;
+    border-color: #002b11;
+    padding: 9.5px 16px;
+    border-radius: 1000px;
+    border: none;
+    font-size: 16px;
+    margin-top: 0;
+}
+header nav button:hover{
+    cursor: pointer;
+    background-color: #f7f7f7;
+}
+header nav button+button:hover{
+    background-color: #002b11;
+    color: #f7f7f7;
+}
+header nav button svg{
+    border-right: 0.5px solid;
+    padding-right: 10px;
+}
+header nav button span{
+    display: flex;
+}
+header nav button span span{
+    padding-left: 10px;
+}
+main  h1 div{
+    font-size: 54px;
+    color: #002b11;
+    margin: 48px 0 0;
+    font-family: "Trip Sans VF","Trip Sans",Arial,sans-serif !important;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+main div ul{
+    color: #002b11;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 58%;
+    margin: auto;
+    vertical-align: middle;
+    font-family: "Trip Sans VF","Trip Sans",Arial,sans-serif !important;
+    padding-bottom: 20px;
+}
+
+main div ul li span{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-right: 8px;
+    /* margin: 4px 4px 4px 24px; */
+}
+main div ul #one{
+    padding-bottom: 8px;
+    border-bottom: 2px solid;
+}
+main div+ div form{
+    height: 60px;
+    width: 58%;
+    margin: auto;
+    background-color: #f7f7f7;
+    border: 2px solid #dfe1df;
+    border-radius: 100px;
+    text-align: left;
+     display: flex;
+    align-items: center;
+    flex: 1;
+    gap: 8px;
+}
+main div+div form div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+main div+ div form div input{
+   background: none;
+   color: #38443a;
+   width: 640px;
+   border: none;
+   padding-left: 8px;
+   /* padding-right: 8px; */
+   font-size: 16px;
+   font-family: "Trip Sans VF","Trip Sans",Arial,sans-serif;
+}
+main div+ div form button{
+    padding: 12px 22.5px;
+    border-radius: 1000px;
+    background-color: #00eb5b;
+    border: 1.5px solid #00ab42;
+    color: #002b11;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
+main section{
+    width: 82%;
+    background-color: #00eb5b;
+    margin: 64px 96.5px;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    height: 500px;
+    border-radius: 8px;
+}
+
+main section div img{
+    border-radius: 8px;
+    /* width: 580px; */
+}
+main section div {
+    padding-right: 20px;
+    border-right: 1px solid #002b11;
+}
+
+main section #conent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: none;
+}
+
+#conent h1{
+    color:#002b11;
+    font-size: 56px;
+    letter-spacing: -1.12px;
+    line-height: 80%;
+    width: 90%;
+    font-family: "Trip Sans VF","Trip Sans",Arial,sans-serif;
+    font-style:normal;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 25px;
+
+}
+#conent p{
+    font-size: medium;
+    color: #002b11;
+    font: normal 400 20px/24px "Trip Sans VF","Trip Sans",arial,sans-serif;
+    padding-bottom: 25px;
+}
+#conent button{
+    background-color: #002b11;
+    border-color: #002b11;
+    color: #f7f7f7;
+    border-radius: 1000px;
+    padding: 13.5px 24px;
+    text-align: center;
+    font-weight: bold;
+}
+#section2 {
+    width: 82%;
+    margin: auto;
+}
+#section2 h2{
+    font: normal 600 20px/24px "Trip Sans VF","Trip Sans",arial,sans-serif;
+    color: #002b11;
+    margin-bottom: 4px;
+}
+#section2 p{
+    font:  400 16px/24px "Trip Sans VF","Trip Sans",arial,sans-serif;
+    color: #002b11;
+    margin-bottom: 15px;
+}
+#section2 ul{
+    display: flex;
+    width: 82%;
+    list-style: none;
+    left: 0;
+    margin-left: 0;
+}
+#section2 ul li img{
+    height: 300px;
+    width: 275px;
+    padding-right: 16px;
+    padding-left: 0;
+    border-radius: 8px;
+    display: block;
+}
+#section2 ul li{
+    position: relative;
+     display: inline-block;
+}
+#section2 ul li p{
+     position: absolute;
+    bottom: 3px;
+    left: 5px;
+    color: #ffff;
+    letter-spacing: .02em;
+    font:  600 28px/28px "Trip Sans VF","Trip Sans",arial,sans-serif;
+    padding: 6px 10px;
+    border-radius: 6px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#section3 {
+    width: 82%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 64px;
+}
+#section3 h2{
+    font: normal 600 20px/24px "Trip Sans VF","Trip Sans",arial,sans-serif;
+    color: #002b11;
+    margin-bottom: 4px;
+    margin-top: 10px;
+}
+#section3 p{
+    font:  400 16px/24px "Trip Sans VF","Trip Sans",arial,sans-serif;
+    color: #002b11;
+    margin-bottom: 15px;
+}
+#section3 ul{
+    display: flex;
+    width: 82%;
+    list-style: none;
+    left: 0;
+    margin-left: 0;
+}
+#section3 ul li img{
+    height: 250px;
+    width: 275px;
+    padding-right: 16px;
+    padding-left: 0;
+    border-radius: 8px;
+    display: block;
+}
+#section3 ul li p{
+    font: normal 700 18px/22px "Trip Sans VF","Trip Sans",arial,sans-serif;
+}
+#section3 ul li svg{
+    fill: #00ab42;
+    /* background-color: #00eb5b; */
+}
+#section3 ul li span{
+    font: normal 700 14px/18px "Trip Sans VF","Trip Sans",arial,sans-serif;
+}
+#section4 {
+    width: 82%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#section4 >div{
+    position: relative;
+     display: inline-block;
+     width: 100%;
+}
+#section4 img{
+    width: 100%;
+    height: 500px;
+    border-radius: 8px;
+    display: block;
+}
+#section4 span{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 84px;
+    width: 65px;
+    z-index: 2;
+}
+#section4 span img {
+  height: 80px;
+  width: auto;
+}
+
+#section4 >div >div{
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 1;
+}
+#section4 div div h2{
+    font:  800 40px/40px "Trip Sans VF","Trip Sans",arial,sans-serif;
+    display: block;
+}
+#section4 div div p{
+    font: normal 400 20px/24px "Trip Sans VF","Trip Sans",arial,sans-serif;
+    margin-bottom: 10px;
+}
+#section4 button{
+    padding: 13.5px 24px;
+    background-color: #ffff;
+    border-color: #ffff;
+    color: #002b11;
+    border-radius: 1000px;
+    cursor: pointer;
+    font: normal 700 16px/21px "Trip Sans VF","Trip Sans",arial,sans-serif;
+    text-align: center;
+    margin: 16px 0 0;
+}
+#section5{
+    background-color: #f7f7f7;
+    height: 400px;
+    margin-top: 30px;
+}
+#section5 >div{
+    width: 82%;
+    margin: auto;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+#section5 > div h2{
+    font-size: 22px;
+    font-weight: 700;
+    font-family: "Trip Sans VF","Trip Sans",arial,sans-serif;
+    margin-bottom: 4px;
+}
+#section5 div div ul{
+    display: flex;
+    justify-content: space-between;
+    /* width: 82%; */
+    list-style: none;
+    margin-top: 15px;
+      position: relative;
+     /* display: inline-block; */
+}
+#section5 div div ul li {
+    position: relative; 
+}
+#section5 div div ul li img{
+    height: 250px;
+    width: 350px;
+    border-radius: 8px;
+    display: block;
+}
+#section5 div div ul li p{
+    font: normal 700 18px/22px "Trip Sans VF","Trip Sans",arial,sans-serif;
+    text-align: center;
+    max-width: 350px;
+    margin-top: 15px;
+}
+#section5 div div ul li button{
+    border-radius: 60px;
+    padding: 3px;
+    background-color: #ffff;
+    color: #002b11;
+    border: transparent;
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+     top: 10px;
+    right: 5px; 
+}
+#section6 {
+    width: 82%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 64px;
+}
+#section6 h2{
+    font: normal 600 20px/24px "Trip Sans VF","Trip Sans",arial,sans-serif;
+    color: #002b11;
+    margin-bottom: 4px;
+    margin-top: 10px;
+}
+#section6 p{
+    font:  400 16px/24px "Trip Sans VF","Trip Sans",arial,sans-serif;
+    color: #002b11;
+    margin-bottom: 15px;
+}
+#section6 ul{
+    display: flex;
+    width: 82%;
+    list-style: none;
+    left: 0;
+    margin-left: 0;
+}
+#section6 div ul li{
+    position: relative;
+}
+#section6 ul li img{
+    height: 250px;
+    width: 275px;
+    padding-right: 16px;
+    padding-left: 0;
+    border-radius: 8px;
+    display: block;
+}
+#section6 ul li h2{
+    font: normal 700 18px/22px "Trip Sans VF","Trip Sans",arial,sans-serif;
+}
+#section6 ul li div svg{
+    fill: #00ab42;
+    /* background-color: #00eb5b; */
+}
+#section6 ul li p{
+    font: normal 700 14px/18px "Trip Sans VF","Trip Sans",arial,sans-serif;
+}
+#section6 div ul li button{
+    border-radius: 60px;
+    padding: 3px;
+    background-color: #ffff;
+    color: #002b11;
+    border: transparent;
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+     top: 10px;
+    right: 20px; 
+}
+#section6 .name{
+    width: 60px;
+    background-color: #f7f7f7;
+    padding: 4px 8px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-top: 8px;
+    color: #002b11;
+    font: normal 700 12px/16px "Trip Sans VF","Trip Sans",arial,sans-serif;
+}
+
+#section7 {
+    width: 82%;
+    margin: auto;
+    margin-bottom: 64px;
+}
+#section7 h2{
+    font: normal 600 20px/24px "Trip Sans VF","Trip Sans",arial,sans-serif;
+    color: #002b11;
+    margin-bottom: 10px;
+}
+#section7 ul{
+    display: flex;
+    width: 82%;
+    list-style: none;
+    left: 0;
+    margin-left: 0;
+}
+#section7 ul li img{
+    height: 300px;
+    width: 275px;
+    padding-right: 16px;
+    padding-left: 0;
+    border-radius: 8px;
+    display: block;
+}
+#section7 ul li{
+    position: relative;
+     display: inline-block;
+}
+#section7 ul li p{
+     position: absolute;
+    bottom: 3px;
+    left: 5px;
+    color: #ffff;
+    letter-spacing: .02em;
+    font:  600 28px/28px "Trip Sans VF","Trip Sans",arial,sans-serif;
+    padding: 6px 10px;
+    border-radius: 6px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+#section8{
+    /* margin-top: 40px; */
+    width: 84%;
+    height: 500px;
+    background-color: #f7f7f7;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#section8 div img{
+    height: 460px;
+    width: 600px;
+    padding-left: 20px;
+    border-radius: 8px;
+}
+#section8 div+div span img{
+    width: 24px;
+    height: auto;
+}
+#section8 div+div{
+    width: 30%;
+    text-align: center;
+    margin: auto;
+}
+#section8 div+div h2{
+    font: normal 700 32px/38px "Trip Sans VF","Trip Sans",arial,sans-serif;
+    color: #002b11;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+#section8 div+div p{
+    font: normal 400 16px/24px "Trip Sans VF","Trip Sans",arial,sans-serif;
+    color: #38443a;
+}
+#section8 > div+div span{
+    font: normal 400 16px/24px "Trip Sans VF","Trip Sans",arial,sans-serif;
+}
+#section8 > div+div span+span+span{
+    text-decoration: underline;
+    padding-left: 2px;
+}
+#section8 button{
+    padding: 13.5px 24px;
+    color: #ffff;
+    background-color: #002b11;
+    border-radius: 1000px;
+    border-color: #002b11;
+    margin-top: 20px;
+    text-align: center;
+}
+#section9{
+    background-color: #002b11;
+    height: 600px;
+    margin-top: 40px;
+    margin-bottom: 64px;
+}
+#section9 div{
+    width: 82%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* flex: 1; */
+}
+#section9 div div{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-left: 0;
+}
+#section9 div div img{
+    height: 86px;
+    width: 65px;
+    display: block;
+    margin-top: 30px;
+}
+#section9 div div h2{
+    font: normal 800 61px/68px "Trip Sans VF","Trip Sans",arial,sans-serif;
+    color: #ffff;
+}
+#section9 div div p{
+    font: normal 800 19px/24px "Trip Sans VF","Trip Sans",arial,sans-serif;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    color: #ffff;
+}
+#section9 button{
+    padding: 17.5px 24px;
+    color: #002b11;
+    background-color: #ffff;
+    text-align: center;
+    border-radius: 1000px;
+    border:none;
+    width: 170px;
+    font: normal 700 16px/18px "Trip Sans VF","Trip Sans",arial,sans-serif;
+}
+#section9 div+div{
+    margin-top: 0;
+    background-image: url(./Images/9.png);
+    background-position: 0;
+    height: 600px;
+    padding-top: 0;
+    width: 761px;
+    background-size: cover;
+}
+#section10 {
+    width: 82%;
+    margin: auto;
+    margin-bottom: 64px;
+}
+#section10 h2{
+    font: normal 600 20px/24px "Trip Sans VF","Trip Sans",arial,sans-serif;
+    color: #002b11;
+    margin-bottom: 10px;
+}
+#section10 ul{
+    display: flex;
+    width: 82%;
+    list-style: none;
+    left: 0;
+    margin-left: 0;
+}
+#section10 ul li img{
+    height: 320px;
+    width: 275px;
+    padding-right: 16px;
+    padding-left: 0;
+    border-radius: 8px;
+    display: block;
+}
+#section10 ul li{
+    position: relative;
+     display: inline-block;
+     /* text-align: center; */
+}
+#section10 ul li span{
+     position: absolute;
+    bottom: 50px;
+    left: 5px;
+    color: #ffff;
+    letter-spacing: .02em;
+    font:  600 20px/24px "Trip Sans VF","Trip Sans",arial,sans-serif;
+    padding: 6px 10px;
+    border-radius: 6px;
+    z-index: 1;
+    /* background-color: rgba(0, 0, 0, 0.1); */
+}
+#section10 p{
+    font: normal 400 16px/24px "Trip Sans VF","Trip Sans",arial,sans-serif;
+    /* text-align: center; */
+}
+footer{
+    /* border: 1px solid; */
+    background-color: #f7f7f7;
+    padding-top: 32px;
+    color: #002b11;
+    /* display: flex; */
+}
+footer section{
+    width: 82%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    color: #384a3a;
+    /* margin-bottom: 10px; */
+}
+footer section >div{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex: 1;
+    /* gap: 8px; */
+}
+footer section ul {
+    list-style: none;   
+    padding-bottom: 8px;
+}
+footer section div p{
+    font-size: 16px;
+    padding-bottom: 8px;
+    font: normal 400 16px/24px "Trip Sans VF","Trip Sans",arial,sans-serif;
+}
+footer section ul li{
+    font-size: 14px;
+    padding-bottom: 4px;
+    font: normal 400 14px/18px "Trip Sans VF","Trip Sans",arial,sans-serif;
+}
+footer section >div+div{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: center;
+}
+footer #last{
+    width: 82%;
+    margin: auto;
+    display: flex;
+    flex: 1;
+    position: relative;
+}
+footer #last div img{
+    width: 40px;
+    margin-bottom: 16px;
+    margin-top: 10px;
+}
+#last div div ul{
+    list-style: none;
+    display: flex;
+    margin-left: 40px;
+    text-decoration: underline;
+    /* justify-content: space-between; */
+    font: normal 700 16px/21px "Trip Sans VF","Trip Sans",arial,sans-serif;
+}
+#last div div ul li{
+    margin-right: 20px;
+}
+#last #mark{
+    font: normal 700 12px/16px "Trip Sans VF","Trip Sans",arial,sans-serif;
+    margin: 0;
+    position: absolute;
+    top: 20px;
+    left: 60px;
+}
+#last div div+div p{
+    margin: 10px;
+    font: normal 400 14px/18px "Trip Sans VF","Trip Sans",arial,sans-serif;
+    color: #38443a;
+}
+#last div div+div span{
+    font: normal 700 16px/21px "Trip Sans VF","Trip Sans",arial,sans-serif;
+    text-decoration: underline;
+    margin-top: 0;
+}
+#last div div+div div{
+    text-align: center;
+    /* margin-top: 10px; */margin-bottom: 30px;
+}
+#last div+div > div{
+    display: flex;
+    flex-direction: row;
+}
+#last div+div button{
+    padding: 6.5px 14px 4.5px;
+    border: 2px solid #768a79;
+    background-color: #ffff;
+    gap: 8px;
+    color: #002b11;
+    border-radius: 12px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    font: normal 700 16px/21px "Trip Sans VF","Trip Sans",arial,sans-serif;
+}
+#last div+div button span{
+    margin-right: 73px;
+}
+#last >div+div div{
+    /* border: 2px solid; */
+    margin-left: 60px;
+    display: flex;
+    justify-content: space-between;
+}
